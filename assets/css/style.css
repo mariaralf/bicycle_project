@@ -1,0 +1,618 @@
+body{
+    background-color: azure;
+    margin:0;
+    max-width:100%;
+    overflow-x: hidden;
+
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+h1{
+    margin: 0;
+    
+}
+
+
+
+
+
+
+.AboutUs{
+       width:100%;
+    max-width: 1601px;
+    height:469px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+  
+    display:flex;
+    flex-direction:column;
+    
+    align-items:center;
+    justify-content: center;
+    
+    
+}
+
+.flex_item{
+        
+    height:20%;
+       width:80%;
+    font-size:18px;
+    text-align:center;
+    
+}
+.item_1{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+
+.item_2{
+    font-family: 'Lato';
+    color: #353738;
+    font: bold;
+    letter-spacing: 0.5em;
+    word-spacing: 110%;
+    
+    display:flex;
+    align-items:center;
+    justify-content:center;    
+   
+}
+
+.item_3{
+
+    font-family: 'Lato';
+    color: #848789;
+    line-height: 200%;
+    height:30%;
+}
+
+.Work{
+    height: 1800px;
+}
+
+.Twitter{
+   height: 469px;
+     width:100%;
+    max-width: 1601px;
+    margin:0;
+    
+    
+    display:flex;
+    flex-direction: column;
+    
+    background-color: #f7f7f7;
+        align-items: center;
+    justify-content: center;
+
+}
+
+.item_icon{
+
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;    
+}
+.row{
+        font-family: 'Lato';
+        font-size: 18pt;
+    letter-spacing: 2pt;
+    word-spacing: 4pt;
+        display: flex;
+    flex-direction:row;
+        height:20%;
+    align-items: center;
+    justify-content: center;
+}
+.head_aod{
+
+    font-weight: 600;
+
+}
+.min{
+
+    font-family: 'Lato' monospace;
+    color: #939698;
+}
+.text_twitter{
+    
+    font-family: 'Lato';
+    font-style: italic;
+    font-size: 18pt;
+    display: flex;
+    text-align: center;
+    line-height: 200%;
+
+
+    width:80%;
+
+}
+
+.Shop{
+    height: 734px;
+
+}
+
+.Mailing{
+    height: 469px;
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        font-family: 'Lato';
+    flex-direction:column;
+  
+
+    
+}
+
+.mail_logo{
+
+  height: 30%;
+    
+}
+.mail_text{
+    height: 20%;
+    font-family: 'Lato';
+    font-size: 24pt;
+    font-style: italic;
+    color: #848789;
+    font-weight: bold;
+   
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 150%;
+    height: 10%;
+}
+.mail_text_1{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+
+
+
+::-webkit-input-placeholder{
+    color:#c8c8c8;
+    background-color: white;
+    font-family: 'Lato';
+      font-style: italic;
+    font-size: 15pt;
+
+}
+.Input_e{
+    display: block;
+    height:69px;
+    margin:5px;
+    width:20%;
+    padding-left: 30px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    border:2px solid #c8c8c8;
+    outline:none;
+    
+
+
+}
+.button{
+    background-color: #64c29e;
+    font-family: 'Lato';
+    color: white;
+    width:126px;
+    height:73px;
+    font-size:20pt;
+    font-weight:100;
+    border:none;
+    transition: 0.5s;
+
+}
+
+:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.button:hover{
+    color: #64c29e;
+    background-color: white;
+ 
+    border:2px solid #c8c8c8;
+    
+}
+
+
+
+.Grid_Work{
+   
+    height:600px;
+    display:grid;
+    grid-template-columns: repeat(3, 33.333%);
+    grid-template-rows: repeat(3,33.333%);
+   
+  margin:0;
+    padding: 0;
+
+}
+
+.work_item{
+   
+    margin:0;
+    padding: 0;
+   
+    
+    
+}
+
+.work_item_1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end:4;
+    background-image:url(../images/Rectangle%201.png);
+    border:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+.work_item_2{
+    grid-row-start: 1;
+    grid-row-end:3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+        background-image: url(../images/Bg.png);
+    position: relative;
+
+   
+}
+.work_item_3{
+grid-row-start:1;
+grid-row-end:3;
+    grid-column-start: 1;
+    grid-column-end:2;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     background-image: url(../images/Bg.png);
+
+}
+.work_item_4{
+    grid-row-start:1;
+    grid-row-end:4;
+    grid-column-start: 2;
+    grid-column-end:4;
+    background-image: url(../images/Rectangle%204.png);
+    border:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.work_item_5{
+    grid-row-start:1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-image: url(../images/Rectangle%205.png);
+    border:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.work_item_6{
+    grid-row-start: 1;
+    grid-row-end:3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     background-image: url(../images/Bg.png);
+}
+.work_item_7{
+    grid-row-start: 1;
+    grid-row-end:4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-image: url(../images/Rectangle%206.png);
+    border:0;
+}
+.work_item_8{
+    background-image: url(../images/Rectangle%202.png);
+position: relative; /* Относительное позиционирование */
+}
+.work_item_9{
+    background-image: url(../images/Rectangle%203.png);
+   
+   
+    
+    
+}
+.work_item_10{
+    background-image: url(../images/Rectangle%207.png);
+   
+    
+}
+.image_work{
+    height: 145px;
+    width:170px;
+    
+   
+}
+.work_text_item1{
+    display: flex;
+    height: 13%;
+    width:80%;
+
+    align-items:flex-end;
+    justify-content: center;
+}
+
+.work_text_item2{
+    display: flex;
+    height: 18%;
+    width:80%;
+
+    align-items: center;
+    justify-content: center;
+
+        font-family: 'Lato';
+    color: #353738;
+    font-weight: 900;
+    letter-spacing: 0.5em;
+    word-spacing: 110%;
+    text-transform: uppercase;
+    
+   
+}
+.work_text_item3{
+    display: flex;
+    height: 30%;
+    width:80%;
+
+    align-items: center;
+    justify-content: center;
+        font-family: 'Lato';
+    color: #848789;
+    line-height: 200%;
+    height:30%;
+
+    text-align: justify;
+}
+
+.img_bg{
+    height:540px;
+    width:100%;
+    position: relative;
+  
+}
+.text_block{
+    position:inherit;
+}
+
+
+
+.work_item_8::before{
+  
+    content: ''; /* Выводим треугольник */
+    left:50%;
+
+    /* Создание треугольника */
+    width: 0; height: 0;
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent transparent transparent #ffffff;
+    position: absolute; /* Абсолютное позиционирование */
+    transform: rotate(90deg);
+
+   }
+.work_item_9::before{
+  
+    content: ''; /* Выводим треугольник */
+    left:16.666%;
+
+    /* Создание треугольника */
+    width: 0; height: 0;
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent transparent transparent #ffffff;
+    position: absolute; /* Абсолютное позиционирование */
+    transform: rotate(90deg);
+
+   }
+.work_item_10::before{
+  
+    content: ''; /* Выводим треугольник */
+    left:50%;
+
+    /* Создание треугольника */
+    width: 0; height: 0;
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent transparent transparent #ffffff;
+    position: absolute; /* Абсолютное позиционирование */
+    transform: rotate(90deg);
+
+   }
+
+.Grid_Shop{
+    height: 534px;
+    display: grid;
+    grid-template-columns: repeat(6,16.666%);
+    grid-template-rows: repeat(2,50%);
+    border:0;
+    
+}
+.shop_item{
+    margin:0;
+    padding: 0;
+    border:0;
+}
+.shop_item_1{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: url(../images/img_shop/Rectangle3.png);
+}
+
+.shop_item_2{
+    grid-row-start: 1;
+    grid-row-end:3;
+    grid-column-start: 3;
+    grid-column-end:4;
+    background-image: url(../images/img_shop/Rectangle4.png);
+}
+.shop_item_3{
+    grid-row-start: 1;
+    grid-row-end:3;
+    grid-column-start: 4;
+    grid-column-end:5;
+    background-image: url(../images/img_shop/Rectangle5.png);
+
+    
+}
+.shop_item_4{
+    grid-row-start: 1;
+    grid-row-end:2;
+    grid-column-start: 5;
+    grid-column-end:7;
+   
+    background-image: url(../images/img_shop/Layer%2023.png);
+    background-size: cover;
+    background-color: #64c29e;
+}
+.shop_item_5{
+    background-image: url(../images/img_shop/Rectangle1.png);
+}
+.shop_item_6{
+    background-image: url(../images/img_shop/Rectangle2.png);
+}
+.shop_item_7{
+    background-image: url(../images/img_shop/Rectangle6.png);
+}
+.shop_item_8{
+    background-image: url(../images/img_shop/Rectangle7.png);
+}
+
+.shop_bike_logo{
+position: relative;
+    top:30%;
+    left:45%;
+
+}
+.shop_text{
+    font-family: 'Lato';
+    font-size:14pt;
+    color: white;
+    position: relative;
+    top: 35%;
+    left:40%;
+
+}
+.shop_item_4_overlay{
+     width: 100%;
+    height: 100%;
+    background-color: #64c29e;
+    opacity: 80%;
+}
+
+.shop_discovery{
+    background-color: #282f35;
+    height:30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_discover{
+    height:50px;
+    width:300px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1.5pt;
+    text-transform:uppercase;
+    transition:0.5s;
+
+}
+.button_discover:hover{
+    border:0;
+    background-color: white;
+    color:#282f35;
+    
+}
+
+.intro_text{
+    font-family: 'Lato';
+    font-size: 13px;
+    font-weight: bold;
+    color:#4d4959;
+    text-decoration: none;
+}
+.intro{
+    width: 100%;
+    height: 100vh;
+
+    background: url(../images/head.png) center no-repeat;
+    border: none;
+    background-size:cover;
+     -webkit-   background-size:cover;
+    margin:0 auto;
+    background-attachment: scroll;
+position:sticky;
+
+}
+.header{
+      display: flex;
+    align-items: center;
+
+    justify-content: center;
+    width:100%;
+    height:120px;
+    
+    text-transform: uppercase;
+    position:fixed;
+    background-color: white;
+    background-blend-mode: hue;
+
+    
+}
+
+.header_item{
+    width:12%;
+       
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    letter-spacing: 2pt;
+}
+
+
